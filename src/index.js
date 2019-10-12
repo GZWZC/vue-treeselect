@@ -11,4 +11,3 @@ export {
   ASYNC_SEARCH,
 } from './constants'
 
-export const VERSION = PKG_VERSION
