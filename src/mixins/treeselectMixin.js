@@ -861,11 +861,6 @@ export default {
     },
 
     'trigger.searchQuery'() {
-      if (this.async) {
-        this.handleRemoteSearch()
-      } else {
-        this.handleLocalSearch()
-      }
 
       this.$emit('search-change', this.trigger.searchQuery, this.getInstanceId())
     },
